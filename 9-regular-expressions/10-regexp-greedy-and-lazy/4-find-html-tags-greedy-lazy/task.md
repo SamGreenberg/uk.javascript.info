@@ -1,15 +1,15 @@
-# Знайти HTML теги
+# Find HTML tags
 
-Створити регулярний вираз для пошуку всіх (відкриваючих та закриваючих) HTML тегів з їх атрибутами.
+Create a regular expression to find all (opening and closing) HTML tags with their attributes.
 
-Приклад використання:
+An example of use:
 
 ```js run
-let regexp = /ваш регулярний вираз/g;
+let regexp = /your regexp/g;
 
 let str = '<> <a href="/"> <input type="radio" checked> <b>';
 
 alert( str.match(regexp) ); // '<a href="/">', '<input type="radio" checked>', '<b>'
 ```
 
-Тут ми припускаємо, що атрибути тегу не містять `<` та `>` (внутрішні лапки) для спрощення задачі.
+Here we assume that tag attributes may not contain `<` and `>` (inside quotes too), that simplifies things a bit.

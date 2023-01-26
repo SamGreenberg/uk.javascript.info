@@ -1,6 +1,6 @@
-# Збіг для /d+? d+?/
+# A match for /d+? d+?/
 
-Який результат ми отримаємо?
+What's the match here?
 
 ```js
 alert( "123 456".match(/\d+? \d+?/g) ); // ?

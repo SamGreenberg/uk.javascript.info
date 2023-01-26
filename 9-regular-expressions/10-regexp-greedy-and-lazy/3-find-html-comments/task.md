@@ -1,13 +1,13 @@
-# Знайти HTML коментарі
+# Find HTML comments
 
-Знайти всі HTML коментарі в тексті:
+Find all HTML comments in the text:
 
 ```js
-let regexp = /ваш регулярний вираз/g;
+let regexp = /your regexp/g;
 
-let str = `... <!-- Мій -- коментар
+let str = `... <!-- My -- comment
  test --> ..  <!----> .. 
 `;
 
-alert( str.match(regexp) ); // '<!-- Мій -- коментар \n test -->', '<!---->'
+alert( str.match(regexp) ); // '<!-- My -- comment \n test -->', '<!---->'
 ```
